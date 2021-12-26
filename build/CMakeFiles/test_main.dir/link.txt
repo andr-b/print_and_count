@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/test_main.dir/test/test.cpp.o  -o test_main  lib/libgtest.a lib/libgtest_main.a lib/libgtest.a -lpthread 

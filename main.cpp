@@ -77,6 +77,7 @@ int main()
 	std::string s = ".";
 	fs::path input(s);
 	while (true) {
+	std::cout << "Enter a path: \n";
 	std::cin >> s;
 	input = fs::path(s);
 	if(fs::exists(input) &&fs::is_directory(input)){

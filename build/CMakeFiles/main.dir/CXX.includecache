@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mdjer/progs/globallogic/print_and_count/main.cpp
+iostream
+-
+thread
+-
+filesystem
+-
+string
+-
+vector
+-
+semaphore
+-
+
